@@ -1,0 +1,65 @@
+.title{
+ 	width: 1000px;
+ 	height: 20px;
+ 	padding-bottom: 10px;
+ 	text-align: center;
+}
+
+.app{
+	width: 1000px;
+	height: 570px;
+}
+
+.dropable{
+	width:  400px;
+	height: 300px;
+	border: 1px solid black;
+	margin-left: 230px;
+	margin-top: 100px;
+}
+
+.dragable{
+  margin-left: 50px;
+  width: 900px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.question{
+	margin-left: 50px; 
+ 	width: 900px;
+ 	height: 10px;
+ 	text-align: center;
+} 
+
+.straw{
+	width: 900px;
+	height: 490px;
+	margin-left: 50px;
+	background-image: url("F:/angularproject/SE/DragAndDrop/src/assets/1.jpg"); 	
+	border: 1px solid black;
+	background-position: center;
+}
+
+.answer, .answerex-moved, .ex-moved, .ex-over{
+ 	width: 100px;
+ 	height: 30px;
+ 	text-align: center;
+ 	padding-top: 5px;
+ 	float: left;
+ 	margin-left: 20px;
+ 	margin-top: 10px;
+ 	border: 0.1em solid #c6c6c6;
+ 	background-color: rgb(221,221,221);
+ 	box-shadow: rgba(0,0,0,0.2);
+ 	border-radius: 0.25em;
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.answer:hover{
+	background-color: grey;
+}
